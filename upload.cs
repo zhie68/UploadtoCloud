@@ -15,7 +15,7 @@
           
             var driver = new ChromeDriver(service, options);
        
-            driver.Navigate().GoToUrl("http://cloudstorage.krakatauposco.co.id/login");
+            driver.Navigate().GoToUrl("url");
 
             IWebElement userx = driver.FindElement(By.Id("user"));
             IWebElement passwordx = driver.FindElement(By.Id("password"));
